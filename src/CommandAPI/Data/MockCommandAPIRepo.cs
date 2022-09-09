@@ -19,6 +19,10 @@ namespace CommandAPI.Data
         {
             var commands = new List<Command>
             {
+                                new Command{
+                    Id=0, HowTo="Hei WANCHO", 
+                    CommandLine="", 
+                    Platform=""},
                 new Command{
                     Id=0, HowTo="How to genrate a migration", 
                     CommandLine="dotnet ef migrations add <Name of Migration>", 
